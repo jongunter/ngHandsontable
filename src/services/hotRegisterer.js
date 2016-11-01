@@ -4,6 +4,11 @@
     var instances = {};
 
     return {
+      
+      getAllInstances: function(){
+        return instances;
+      },
+      
       getInstance: function(id) {
         return instances[id];
       },
